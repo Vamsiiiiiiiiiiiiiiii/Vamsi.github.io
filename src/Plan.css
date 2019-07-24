@@ -1,0 +1,51 @@
+.PlanlistMain .header input {
+    padding: 10px;
+    margin-left: 480px;
+    font-size: 16px;
+    border: 2px soild #fff;
+    width: 165px;
+}
+
+.PlanlistMain .header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: red;
+    color: #fff;
+    border: 2px solid black;
+}
+
+.PlanlistMain .header button:hover {
+    background-color: #c0392b;
+    border: 2px solid #c0392b;
+    cursor: pointer;
+}
+
+.PlanlistMain .theList li {
+    color: black;
+    background-color: #bdc3c7;
+    padding: 15px;
+    margin-left: 480px;
+    margin-bottom: 15px;
+    border-radius:15px;
+    list-style: none;
+
+    transition: background-color .2s ease-out;
+}
+
+.PlanlistMain .theList li:hover {
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+
+ul.theList {
+    padding: 0;
+}
+
+.warning{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 14px;
+    margin: -40px 0px 0px 740px;
+}
